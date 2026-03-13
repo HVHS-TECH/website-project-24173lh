@@ -1,0 +1,36 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  
+}.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 2fr 1fr 3fr 1fr 3fr 2fr;
+
+  padding: 10px;
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#logo{ 
+grid-column-start: 1;
+grid-column-end: 2;
+  
+}
+#athletes{
+     grid-column-start: 3;
+  
+}
+#shoes{
+     grid-column-start: 3;
+  
+}
+#about{
+     grid-column-start: 4;
+  
+}
+}
