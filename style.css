@@ -1,5 +1,4 @@
 a{
-  color: white;
   text-decoration: none;
 }
 
@@ -13,6 +12,12 @@ img{
 
 p{
   font-size: 20px;
+  font-family: Helvetica;
+}
+
+@font-face {
+  font-family:myFont;
+  src: url(SairaSemiCondensed-Medium.ttf);
 }
 
 @media screen and (min-width: 480px) {
@@ -30,6 +35,11 @@ p{
   gap: 30px;
   background-color: darkgreen;
   border-radius: 10px;
+  font-family: myFont;
+  a{
+  color: white;
+  text-decoration: none;
+}
   
 }
 .container-nav div {
@@ -43,7 +53,8 @@ p{
 grid-column-start: 1;
 grid-row-start: 1;
 grid-row-end: 4;
-padding: 10;
+padding: 0;
+padding-left: 10px;
 margin-top: 1px;
 margin-bottom: 10px;
 border: 0px;
@@ -57,7 +68,6 @@ border: 0px;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  padding-top: 6px;
   margin-bottom: 15px;
   margin-top: -15px;
 }
@@ -70,7 +80,6 @@ border: 0px;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  padding-top: 6px;
   margin-bottom: 15px;
   margin-top: -15px;
 }
@@ -82,7 +91,6 @@ border: 0px;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  padding-top: 6px;
   margin-bottom: 15px;
   margin-top: -15px;
   margin-right: 15px;
@@ -96,11 +104,16 @@ border: 0px;
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
+  font-family: myFont;
+  a{
+  color: black;
+  text-decoration: none;
+}
+
 }
 .container-body div {
   border: 0px solid black;
   padding: 10px;
-  font-size: 30px;
   padding-top: 0; 
 }
 
@@ -109,6 +122,8 @@ grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 1;
 margin: 0;
+font-size: 40px;
+font-family: myFont;
 }
 
 #jakob{ 
@@ -116,6 +131,7 @@ grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 2;
 margin: 0;
+font-family: myFont;
 }
 
 #josh{ 
@@ -132,4 +148,117 @@ grid-row-start: 2;
 margin: 0;
 }
 
+#vomero{ 
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+margin: 0;
+font-family: myFont;
 }
+
+#vaporfly{ 
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2;
+margin: 0;
+}
+
+#victory{ 
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 2;
+margin: 0;
+}
+
+  .container-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: myFont;
+  }
+
+  .container-home a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .container-home div {
+    border: 0px solid black;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 0;
+  }
+
+#shoe{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+margin: 0;
+font-family: myFont;
+}
+
+#athlete{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 2;
+margin: 0;
+font-family: myFont;
+}
+
+#about-me-home{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 3;
+margin: 0;
+font-family: myFont;
+}
+
+
+
+
+.container-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 450px 50px 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: myFont;
+  }
+
+  .container-about a {
+    color: black;
+    text-decoration: none;
+    font-family: myFont;
+  }
+
+  .container-about div {
+    border: 0px solid black;
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 0;
+  }
+
+  #about_me {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    margin: 0;
+    font-family: myFont;
+  }
+
+  #contact {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    margin: 0;
+    font-family: myFont;
+  }
+
+}
+
+
