@@ -29,7 +29,7 @@ p{
 
 .container-nav {
   display: grid;
-  grid-template-columns: 200px 1fr 130px 130px 130px ;
+  grid-template-columns: 100px 1fr 130px 130px 130px ;
   grid-template-rows:  1px 20px 1px;
   padding: 0px;
   gap: 30px;
@@ -58,8 +58,16 @@ padding-left: 10px;
 margin-top: 1px;
 margin-bottom: 10px;
 border: 0px;
+transition: 0.2s;
 }
 
+#logo img{
+  transition: 0.2s;
+}
+
+#logo:hover img{
+  transform: scale(1.2);
+}
 
 #athletes{
   grid-column-start: 3;
@@ -70,6 +78,12 @@ border: 0px;
   grid-row-end: 4;
   margin-bottom: 15px;
   margin-top: -15px;
+  transition: 0.2s;
+}
+
+#athletes:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 #shoes{
@@ -82,10 +96,16 @@ border: 0px;
   grid-row-end: 4;
   margin-bottom: 15px;
   margin-top: -15px;
+  transition: 0.2s;
+}
+
+#shoes:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 #about{
-    grid-column-start: 5;
+  grid-column-start: 5;
   background-color: #843F66;
   color: white;
   text-align: center;
@@ -94,13 +114,19 @@ border: 0px;
   margin-bottom: 15px;
   margin-top: -15px;
   margin-right: 15px;
+transition: 0.2s;
+}
+
+#about:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 
 .container-body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows:  100px 3fr 1fr 3fr 2fr;
+  grid-template-rows:  100px 3fr 1fr;
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
@@ -173,7 +199,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr 50px 0.5fr;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
@@ -197,32 +223,54 @@ grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 1;
 margin: 0;
+margin-left: 10px;
 font-family: myFont;
+transition: 0.2s;
+border-radius: 20px;
+}
+
+#shoe:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 #athlete{
 grid-column-start: 1;
 grid-column-end: 3;
-grid-row-start: 2;
+grid-row-start: 3;
 margin: 0;
+margin-left: 10px;
 font-family: myFont;
+transition: 0.2s;
+border-radius: 20px;
+}
+
+#athlete:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 #about-me-home{
 grid-column-start: 1;
 grid-column-end: 3;
-grid-row-start: 3;
+grid-row-start: 5;
 margin: 0;
+margin-left: 10px;
 font-family: myFont;
+transition: 0.2s;
+border-radius: 20px;
 }
 
-
+#about-me-home:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
 
 .container-about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 450px 50px 300px;
+    grid-template-rows: 70px 450px 50px ;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
@@ -250,14 +298,20 @@ font-family: myFont;
     font-family: myFont;
   }
 
-  #contact {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
+  .contact {
     margin: 0;
+    margin-left: 28px;
     font-family: myFont;
   }
+
+.contact a{
+  color: black;
+  font-family: myFont;
+}
+.contact p{
+  color: black;
+  font-family: myFont;
+}
 
 }
 
