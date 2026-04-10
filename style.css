@@ -26,7 +26,7 @@ p{
   
   }
 
-.container-nav-big {
+.container-nav {
   display: grid;
   grid-template-columns: 100px 1fr 130px 130px 130px ;
   grid-template-rows:  1px 20px 1px;
@@ -71,6 +71,8 @@ transition: 0.2s;
 #logo:hover img{
   transform: scale(1.2);
 }
+
+
 
 #athletes{
   grid-column-start: 3;
@@ -203,7 +205,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 50px 1fr 50px 0.5fr;
+    grid-template-rows: 100px 1fr 50px 1fr 50px 0.5fr;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
@@ -215,6 +217,11 @@ margin: 0;
     text-decoration: none;
   }
 
+   .container-home h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .container-home div {
     border: 0px solid black;
     padding: 10px;
@@ -222,10 +229,21 @@ margin: 0;
     padding-top: 0;
   }
 
-#shoe{
+#web{
 grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 1;
+margin: 0;
+margin-left: 10px;
+font-family: myFont;
+transition: 0.2s;
+border-radius: 20px;
+}
+
+#shoe{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 2;
 margin: 0;
 margin-left: 10px;
 font-family: myFont;
@@ -242,7 +260,7 @@ border-radius: 20px;
 #athlete{
 grid-column-start: 1;
 grid-column-end: 3;
-grid-row-start: 3;
+grid-row-start: 4;
 margin: 0;
 margin-left: 10px;
 font-family: myFont;
@@ -259,7 +277,7 @@ border-radius: 20px;
 #about-me-home{
 grid-column-start: 1;
 grid-column-end: 3;
-grid-row-start: 5;
+grid-row-start: 6;
 margin: 0;
 margin-left: 10px;
 font-family: myFont;
@@ -339,7 +357,7 @@ border-radius: 10px;
   
   }
 
-.container-nav-drop{
+.container-nav{
   display: grid;
   grid-template-columns: 100px 1fr 130px 130px 130px ;
   grid-template-rows:  1px 20px 1px;
