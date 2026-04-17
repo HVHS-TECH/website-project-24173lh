@@ -35,7 +35,9 @@ p{
   background-color: darkgreen;
   border-radius: 10px;
   font-family: myFont;
-  a{
+}
+
+.container-nav a{
   color: white;
   text-decoration: none;
 }
@@ -44,7 +46,7 @@ p{
   display: none
 }
   
-}
+
 .container-nav div {
   border: 1px solid black;
   padding: 10px;
@@ -229,7 +231,7 @@ margin: 0;
     padding-top: 0;
   }
 
-#web{
+#description{
 grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 1;
@@ -353,20 +355,23 @@ border-radius: 10px;
 
 @media screen and (max-width: 479px) {
   body {
-    background-color:red;
+    background-color:#88bd8d;
   
   }
 
 .container-nav{
   display: grid;
-  grid-template-columns: 100px 1fr 130px 130px 130px ;
+  grid-template-columns: 60px 1fr 25% 25% 25% ;
   grid-template-rows:  1px 20px 1px;
   padding: 0px;
-  gap: 30px;
+  column-gap: 2%;
+  row-gap: 20px;
   background-color: darkgreen;
   border-radius: 10px;
   font-family: myFont;
-  a{
+}
+
+.container-nav a{
   color: white;
   text-decoration: none;
 }
@@ -375,12 +380,12 @@ border-radius: 10px;
   display: none
 }
   
-}
+
 .container-nav div {
   border: 1px solid black;
-  padding: 10px;
-  font-size: 30px;
-  padding-top: 0; 
+  padding: 7px;
+  font-size: 17px;
+  padding-top: 8px; 
 }
 
 #logo{ 
@@ -397,6 +402,7 @@ transition: 0.2s;
 
 #logo img{
   transition: 0.2s;
+  width: 60px;
 }
 
 #logo:hover img{
@@ -410,7 +416,7 @@ transition: 0.2s;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   margin-top: -15px;
   transition: 0.2s;
 }
@@ -428,7 +434,7 @@ transition: 0.2s;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  margin-bottom: 15px;
+  margin-bottom:7px;
   margin-top: -15px;
   transition: 0.2s;
 }
@@ -445,7 +451,7 @@ transition: 0.2s;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   margin-top: -15px;
   margin-right: 15px;
 transition: 0.2s;
@@ -534,7 +540,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 50px 1fr 50px 0.5fr;
+    grid-template-rows: 100px 1fr 50px 1fr 50px 0.5fr;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
@@ -546,6 +552,12 @@ margin: 0;
     text-decoration: none;
   }
 
+   .container-home h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
   .container-home div {
     border: 0px solid black;
     padding: 10px;
@@ -553,10 +565,21 @@ margin: 0;
     padding-top: 0;
   }
 
-#shoe{
+#description{
 grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 1;
+margin: 0;
+margin-left: 10px;
+font-family: myFont;
+transition: 0.2s;
+border-radius: 20px;
+}
+
+#shoe{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 2;
 margin: 0;
 margin-left: 10px;
 font-family: myFont;
@@ -570,10 +593,26 @@ border-radius: 20px;
   background-color: #a5d4a9;
 }
 
+#vom{
+grid-column-start: 1;
+grid-column-end: 2;
+width: 30%;
+}
+#vp{
+grid-column-start: 2;
+grid-column-end: 3;
+width: 30%;
+}
+#vic{
+grid-column-start: 3;
+grid-column-end: 4;
+width: 30%;
+}
+
 #athlete{
 grid-column-start: 1;
-grid-column-end: 3;
-grid-row-start: 3;
+grid-column-end: 4;
+grid-row-start: 4;
 margin: 0;
 margin-left: 10px;
 font-family: myFont;
@@ -587,10 +626,26 @@ border-radius: 20px;
   background-color:#a5d4a9 ;
 }
 
+#jak{
+grid-column-start: 1;
+grid-column-end: 2;
+width: 30%;
+}
+#jo{
+grid-column-start: 2;
+grid-column-end: 3;
+width: 30%;
+}
+#sammy{
+grid-column-start: 3;
+grid-column-end: 4;
+width: 30%;
+}
+
 #about-me-home{
 grid-column-start: 1;
-grid-column-end: 3;
-grid-row-start: 5;
+grid-column-end: 4;
+grid-row-start: 6;
 margin: 0;
 margin-left: 10px;
 font-family: myFont;
@@ -662,5 +717,3 @@ border-radius: 10px;
 
 
 }
-
-
