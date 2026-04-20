@@ -20,7 +20,7 @@ p{
   src: url(SairaSemiCondensed-Medium.ttf);
 }
 
-@media screen and (min-width: 16cm) {
+@media screen and (min-width: 10in) {
   body {
     background-color:#88bd8d;
   
@@ -353,7 +353,7 @@ border-radius: 10px;
 }
 
 
-@media screen and (max-width: 16cm) {
+@media screen and (max-width: 10in) {
   body {
     background-color:#88bd8d;
   
