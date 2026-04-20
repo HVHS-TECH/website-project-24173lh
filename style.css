@@ -20,7 +20,7 @@ p{
   src: url(SairaSemiCondensed-Medium.ttf);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 16cm) {
   body {
     background-color:#88bd8d;
   
@@ -353,7 +353,7 @@ border-radius: 10px;
 }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 16cm) {
   body {
     background-color:#88bd8d;
   
@@ -384,8 +384,8 @@ border-radius: 10px;
 .container-nav div {
   border: 1px solid black;
   padding: 7px;
-  font-size: 17px;
-  padding-top: 8px; 
+  font-size: 23px;
+  padding-top: 6px; 
 }
 
 #logo{ 
@@ -501,6 +501,10 @@ margin: 0;
 font-family: myFont;
 }
 
+#jakob img{
+  width: 80vw;
+}
+
 #josh{ 
 grid-column-start: 1;
 grid-column-end: 2;
@@ -508,11 +512,19 @@ grid-row-start: 3;
 margin: 0;
 }
 
+#josh img{
+  width: 80vw;
+}
+
 #sam{ 
 grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 4;
 margin: 0;
+}
+
+#sam img{
+  width: 80vw;
 }
 
 #vomero{ 
