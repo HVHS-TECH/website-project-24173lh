@@ -233,8 +233,9 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 50px 1fr 50px 0.5fr;
+    grid-template-rows: 18% 27% 50px 27% 50px 17%;
     padding: 10px;
+    margin-bottom: 0px;
     border-radius: 10px;
     margin-top: 10px;
     font-family: myFont;
@@ -600,7 +601,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 50px 1fr 50px 0.5fr;
+    grid-template-rows: 11% 27% 50px 28% 50px 18%;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
