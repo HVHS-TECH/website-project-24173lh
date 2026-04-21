@@ -20,7 +20,7 @@ p{
   src: url(SairaSemiCondensed-Medium.ttf);
 }
 
-@media screen and (min-width: 100in) {
+@media screen and (min-width: 10in) {
   body {
     background-color:#88bd8d;
   
@@ -297,7 +297,7 @@ border-radius: 20px;
 .container-about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 450px 50px ;
+    grid-template-rows: auto auto 70px ;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
@@ -321,6 +321,7 @@ border-radius: 20px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
+    grid-row-end: 3;
     margin: 0;
     font-family: myFont;
   }
@@ -328,6 +329,8 @@ border-radius: 20px;
   .contact {
     grid-column-start: 1;
     grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
     margin: 0;
     margin-left: 28px;
     font-family: myFont;
@@ -353,7 +356,7 @@ border-radius: 10px;
 }
 
 
-@media screen and (max-width: 100in) {
+@media screen and (max-width: 10in) {
   body {
     background-color:#88bd8d;
   
@@ -468,6 +471,7 @@ transition: 0.2s;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
   grid-template-rows:  100px 1fr 1fr 1fr;
   padding: 10px;
+  padding-left: 0px;
   border-radius: 10px;
   margin-top: 10px;
   font-family: myFont;
@@ -502,7 +506,7 @@ font-family: myFont;
 }
 
 #jakob img{
-  width: 80vw;
+  width: 90vw;
 }
 
 #josh{ 
@@ -513,7 +517,7 @@ margin: 0;
 }
 
 #josh img{
-  width: 80vw;
+  width: 90vw;
 }
 
 #sam{ 
@@ -524,7 +528,7 @@ margin: 0;
 }
 
 #sam img{
-  width: 80vw;
+  width: 90vw;
 }
 
 #vomero{ 
@@ -535,6 +539,10 @@ margin: 0;
 font-family: myFont;
 }
 
+#vomero img{
+  width: 90vw;
+}
+
 #vaporfly{ 
 grid-column-start: 1;
 grid-column-end: 2;
@@ -542,11 +550,19 @@ grid-row-start: 3;
 margin: 0;
 }
 
+#vaporfly img{
+  width: 90vw;
+}
+
 #victory{ 
 grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 4;
 margin: 0;
+}
+
+#victory img{
+  width: 90vw;
 }
 
   .container-home {
@@ -675,7 +691,7 @@ border-radius: 20px;
 .container-about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 450px 50px ;
+    grid-template-rows: auto auto 70px ;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
@@ -697,8 +713,9 @@ border-radius: 20px;
 
   #about_me {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
+    grid-row-end: 3;
     margin: 0;
     font-family: myFont;
   }
@@ -706,6 +723,8 @@ border-radius: 20px;
   .contact {
     grid-column-start: 1;
     grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
     margin: 0;
     margin-left: 28px;
     font-family: myFont;
