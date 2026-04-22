@@ -28,11 +28,11 @@ p{
 
 .container-nav{
   display: grid;
-  grid-template-columns: 60px 1fr 25% 25% 25% ;
+  grid-template-columns: 70px 1fr 25% 25% 25% ;
   grid-template-rows:  1px 20px 1px;
   padding: 0px;
   column-gap: 2%;
-  row-gap: 20px;
+  row-gap: 25px;
   background-color: darkgreen;
   border-radius: 10px;
   font-family: myFont;
@@ -69,7 +69,7 @@ transition: 0.2s;
 
 #logo img{
   transition: 0.2s;
-  width: 60px;
+  width: 70px;
 }
 
 #logo:hover img{
@@ -85,7 +85,7 @@ transition: 0.2s;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  margin-bottom:7px;
+  margin-bottom: 9px;
   margin-top: -15px;
   transition: 0.2s;
 }
@@ -102,7 +102,7 @@ transition: 0.2s;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  margin-bottom: 7px;
+  margin-bottom: 9px;
   margin-top: -15px;
   transition: 0.2s;
 }
@@ -119,7 +119,7 @@ transition: 0.2s;
   text-align: center;
   grid-row-start: 2;
   grid-row-end: 4;
-  margin-bottom: 7px;
+  margin-bottom: 9px;
   margin-top: -15px;
   margin-right: 15px;
 transition: 0.2s;
@@ -145,6 +145,14 @@ transition: 0.2s;
  .container-body a{
   color: black;
   text-decoration: none;
+}
+
+.container-body p{
+  font-size: 25px;
+}
+
+.container-body h3{
+  font-size: 30px;
 }
 
 .container-body div {
@@ -233,7 +241,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 18% 27% 50px 27% 50px 17%;
+    grid-template-rows: 18% 28% 50px 29% 50px 18%;
     padding: 10px;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -252,6 +260,10 @@ margin: 0;
     font-size: 25px;
   }
 
+  .container-home p{
+  font-size: 25px;
+}
+
   .container-home div {
     border: 0px solid black;
     padding: 10px;
@@ -261,7 +273,7 @@ margin: 0;
 
 #description{
 grid-column-start: 1;
-grid-column-end: 3;
+grid-column-end: 4;
 grid-row-start: 1;
 margin: 0;
 margin-left: 10px;
@@ -368,6 +380,11 @@ border-radius: 20px;
     color: black;
     text-decoration: none;
     font-family: myFont;
+  }
+
+  .container-about .header{
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
   .container-about div {
