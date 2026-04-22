@@ -291,13 +291,34 @@ margin-left: 10px;
 font-family: myFont;
 transition: 0.2s;
 border-radius: 20px;
+transform: scale(1);
+box-shadow: 0;
+background-color: #88bd8d;
+animation: in linear;
+animation-timeline: view();
+animation-range: entry 10% exit 90%;
 }
 
-#shoe:hover{
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  background-color: #a5d4a9;
+@keyframes in {
+  from {
+    transform: scale(1);
+    background-color: #88bd8d;
+    box-shadow: none;
+  }
+  50% {
+    transform: scale(1.05);
+    background-color: #a5d4a9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    transform: scale(1);
+    background-color: #88bd8d;
+    box-shadow: none;
+  }
 }
+
+
+
 
 #vom{
 grid-column-start: 1;
@@ -324,12 +345,30 @@ margin-left: 10px;
 font-family: myFont;
 transition: 0.2s;
 border-radius: 20px;
+transform: scale(1);
+box-shadow: 0;
+ background-color: #88bd8d;
+animation: in linear;
+animation-timeline: view();
+animation-range: entry 10% exit 90%;
 }
 
-#athlete:hover{
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  background-color:#a5d4a9 ;
+@keyframes in {
+  from {
+    transform: scale(1);
+    background-color: #88bd8d;
+    box-shadow: none;
+  }
+  50% {
+    transform: scale(1.05);
+    background-color: #a5d4a9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    transform: scale(1);
+    background-color: #88bd8d;
+    box-shadow: none;
+  }
 }
 
 #jak{
@@ -357,12 +396,27 @@ margin-left: 10px;
 font-family: myFont;
 transition: 0.2s;
 border-radius: 20px;
+animation: in linear;
+animation-timeline: view();
+animation-range: entry 10% exit 90%;
 }
 
-#about-me-home:hover{
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  background-color: #a5d4a9;
+@keyframes in {
+  from {
+    transform: scale(1);
+    background-color: #88bd8d;
+    box-shadow: none;
+  }
+  50% {
+    transform: scale(1.05);
+    background-color: #a5d4a9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    transform: scale(1);
+    background-color: #88bd8d;
+    box-shadow: none;
+  }
 }
 
 
@@ -386,6 +440,10 @@ border-radius: 20px;
     grid-column-start: 1;
     grid-column-end: 4;
   }
+
+    .container-about p{
+  font-size: 25px;
+}
 
   .container-about div {
     border: 0px solid black;
