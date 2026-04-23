@@ -241,7 +241,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 19% 28% 50px 29% 50px 18%;
+    grid-template-rows: 19% 28% 50px 28% 50px 19%;
     padding: 10px;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -676,7 +676,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 11% 27% 50px 28% 50px 18%;
+    grid-template-rows: 13% 27% 50px 28% 50px 18%;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
