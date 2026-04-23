@@ -148,7 +148,7 @@ transition: 0.2s;
 }
 
 .container-body p{
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .container-body h3{
@@ -241,7 +241,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 18% 28% 50px 28% 50px 19%;
+    grid-template-rows: 19% 28% 50px 29% 50px 18%;
     padding: 10px;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -261,7 +261,7 @@ margin: 0;
   }
 
   .container-home p{
-  font-size: 25px;
+  font-size: 23px;
 }
 
   .container-home div {
@@ -442,7 +442,7 @@ animation-range: entry 10% exit 90%;
   }
 
     .container-about p{
-  font-size: 25px;
+  font-size: 23px;
 }
 
   .container-about div {
