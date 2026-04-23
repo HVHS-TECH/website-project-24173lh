@@ -241,7 +241,7 @@ margin: 0;
   .container-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 18% 28% 50px 27.5% 50px 19%;
+    grid-template-rows: 18% 28% 50px 27% 50px 19%;
     padding: 10px;
     margin-bottom: 0px;
     border-radius: 10px;
